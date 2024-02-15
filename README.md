@@ -1,3 +1,14 @@
+
+# Separation of concerns
+Original repo: https://github.com/qasirdev/next14-prisma-property
+
+After refactor and separate an application into units
+
+- common-ui: https://github.com/qasirdev/common-ui
+- property-backend-next: https://github.com/qasirdev/property-backend-next
+- property-frontend-next: https://github.com/qasirdev/property-frontend-next
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
