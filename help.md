@@ -68,4 +68,7 @@ https://github.com/turteltech/nextjs-airbnb-clone-starter/blob/master/server/scr
 
 CORSS:
 https://blog.logrocket.com/using-cors-next-js-handle-cross-origin-requests/
+
+//login cookies:
+https://github.com/hiteshchoudhary/nextjs-fullstack-auth/blob/main/src/app/api/users/login/route.ts#L44
 -->

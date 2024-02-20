@@ -27,7 +27,18 @@ export async function POST(request: Request,
                 return NextResponse.json({ message: "Not verified" }, { status: 400 });
             }
 
-            return NextResponse.json({ result: { ...result, accessToken, ...user } }, { status: 200 });
+            const response = NextResponse.json({ 
+              result: { ...result, accessToken, ...user } 
+              },
+              { status: 200 }
+            );
+            response.cookies.set("token", accessToken, {
+                httpOnly: true, 
+                
+            })
+  
+          return response;
+
         }
         else {
             return NextResponse.json({ message: "Password incorrect" }, { status: 400 });
