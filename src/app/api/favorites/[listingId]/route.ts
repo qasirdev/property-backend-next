@@ -106,3 +106,13 @@ export async function DELETE(
   });
 
   return NextResponse.json(user);
+
+}
+export async function GET(
+  request: Request, 
+  { params }: any
+) {
+  return NextResponse.json({
+    data: {'hello':'world'}
+  });
+}
